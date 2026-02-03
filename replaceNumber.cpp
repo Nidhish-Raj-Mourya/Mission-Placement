@@ -33,4 +33,6 @@ int main(){
     cin>>newDigit;
 
     cout<<"New number is:"<<replaceDigit(number,oldDigit,newDigit);
+
+    return 0;
 }
