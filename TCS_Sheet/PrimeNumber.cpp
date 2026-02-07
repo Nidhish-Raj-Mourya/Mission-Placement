@@ -11,6 +11,7 @@ int sumofDigitisPrime(int number)
             sum+=digit;
             number=number/10;
         }
+        
         for(int j=2;j<sum;j++)
         {
             if(sum%j==0)
@@ -18,6 +19,7 @@ int sumofDigitisPrime(int number)
                 count++;
             }
         }
+        
         if(count==0)
         {
             return true;
@@ -31,6 +33,7 @@ int sumofDigitisPrime(int number)
 int primeNumber(int number)
 {       
         int count=0;
+        
         for(int j=2;j<number;j++)
         {
             if(number%j==0)
@@ -38,6 +41,7 @@ int primeNumber(int number)
                 count++;
             }
         }
+        
         if(count==0)
         {
             if(sumofDigitisPrime(number))
@@ -56,9 +60,13 @@ int iterateNumber(int number1,int number2)
 int main()
 {
     int number1,number2;
+        
     cout<<"Enter number1 ";
     cin>>number1;
+        
     cout<<"enter number 2";
     cin>>number2;
+        
     iterateNumber(number1,number2);
+
 }
