@@ -5,7 +5,7 @@ bool primeNumber(int number){
     int i=2;
     bool flag=true;
 
-    while(i<number){
+    while(i<=number/2){
         
         if(number%i==0){
             flag=false;

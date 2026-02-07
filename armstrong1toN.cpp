@@ -18,7 +18,7 @@ int power(int digit,int powerr){
     return result;
 }
 
-void digit(int number){
+void checkArmstrong(int number){
     int temp;
     int countt=count(number);
     int temp2=number;
@@ -43,6 +43,6 @@ int main(){
     cin>>number;
    
     for(int i=1;i<=number;i++){
-         digit(i);
+         checkArmstrong(i);
     }
 }

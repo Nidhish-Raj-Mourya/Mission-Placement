@@ -1,17 +1,18 @@
 #include<iostream>
 using namespace std;
 
-void factor(int number){
+void rightNumber(int number){
 
-    for(int i=1;i<=number/2;i++){
-
-        if(number%i==0){
+    for(int i=1;i<=number;i++){
+    
+        for(int j=1;j<=i;j++){
             cout<<i<<" ";
-        
+     
         }
-      
+        
+        cout<<endl;
     }
-      cout<<number;
+
 }
 
 int main(){
@@ -20,5 +21,6 @@ int main(){
     cout<<"Enter number:";
     cin>>number;
 
-    factor(number);
+    rightNumber(number);
+
 }
