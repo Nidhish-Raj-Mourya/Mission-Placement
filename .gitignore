@@ -7,3 +7,8 @@ node_modules/
 build/
 bin/
 BasicTemplateFile.cpp
+Entangle-Java/.classpath
+Entangle-Java/.project
+Entangle-Java/.settings/
+Entangle-Java/bin/
+*.class
